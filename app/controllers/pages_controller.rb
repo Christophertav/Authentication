@@ -4,4 +4,7 @@ class PagesController < ApplicationController
   def home
     @date = Date.today
   end
+
+  def faq
+  end
 end
